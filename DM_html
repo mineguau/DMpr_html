@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM Proyectos y Construcciones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea, button {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            font-size: 1rem;
+        }
+        .contact-info {
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DM PROYECTOS Y CONSTRUCCIONES</h1>
+    <p>Esto es una prueba de página web para mi papá</p>
+</header>
+
+<nav>
+    <a href="#inicio">INICIO</a>
+    <a href="#cotizacion">COTIZACION</a>
+    <a href="#objetivo">OBJETIVO</a>
+    <a href="#contacto">CONTACTO</a>
+</nav>
+
+<section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>Nuestros proyectos más recientes</p>
+</section>
+
+<section id="objetivo">
+    <h2>Planificar, Desarrollar y Ejecutar Proyectos</h2>
+    <p>
+        CON CALIDAD, EFICIENCIA Y SEGURIDAD, CUMPLIENDO CON LOS REQUISITOS TÉCNICOS, LEGALES Y CONTRACTUALES,
+        PARA SATISFACER LAS NECESIDADES DE SUS CLIENTES Y CONTRIBUIR AL DESARROLLO URBANO E INFRAESTRUCTURAL.
+    </p>
+</section>
+
+<section id="cotizacion">
+    <h2>Cotización de Proyectos</h2>
+    <form>
+        <input type="text" name="nombre" placeholder="Su Nombre">
+        <input type="email" name="email" placeholder="Correo Electrónico">
+        <input type="tel" name="telefono" placeholder="Su Teléfono">
+        <textarea name="mensaje" rows="4" placeholder="Díganos qué piensa"></textarea>
+        <button type="submit">ENVIAR COTIZACIÓN</button>
+    </form>
+</section>
+
+<section id="contacto">
+    <h2>Contacto Directo</h2>
+    <div class="contact-info">
+        <p><strong>Teléfono:</strong> <a href="tel:5532920167">5532920167</a></p>
+        <p><strong>Email:</strong> <a href="mailto:kaisfher@gmail.com">kaisfher@gmail.com</a></p>
+        <p><strong>Correo Alternativo:</strong> <a href="mailto:Kaisfher@hotmail.com">Kaisfher@hotmail.com</a></p>
+        <p><strong>Enlaces:</strong> <a href="http://jjklk/">jjklk</a> | <a href="http://yh/">yh</a> | <a href="http://eeeee/">eeeee</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2025 DM Proyectos y Construcciones. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
